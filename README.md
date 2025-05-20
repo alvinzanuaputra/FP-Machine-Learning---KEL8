@@ -117,4 +117,4 @@ bert_model = TFBertForSequenceClassification.from_pretrained('bert-base-uncased'
 ## 📚 Referensi
 - Devlin, J., et al. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
 - Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. Neural computation.
-- Maas, A. L., et al. (2011). Learning word vectors for sentiment analysis. Proceedings of ACL.# FP-Machine-Learning---KEL8
+- Maas, A. L., et al. (2011). Learning word vectors for sentiment analysis. Proceedings of ACL.
