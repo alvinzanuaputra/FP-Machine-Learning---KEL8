@@ -9,6 +9,30 @@
 | Christoforus Indra Bagus Pratama | 5025231124 | Machine Learning B |
 
 
+## Ketentuan dari classroom :
+
+👥 Komposisi Grup
+Setiap kelompok harus terdiri dari 2 hingga 3 siswa .
+📌 Persyaratan Proyek
+Jenis Masalah: Anda dapat memilih proyek dalam Pembelajaran Terawasi , Pembelajaran Tanpa Pengawasan , atau Pembelajaran Penguatan .
+Dataset: Anda diperbolehkan menggunakan dataset publik atau dataset privat/khusus .
+Model Pembelajaran Mendalam: Setiap kelompok harus menerapkan dan membandingkan setidaknya dua model pembelajaran mendalam yang berbeda .
+Contoh: Untuk tugas pengelompokan, Anda dapat membandingkan K-means dan Pengelompokan Hirarkis .
+📑 Struktur Slide Presentasi
+Pendahuluan: Latar belakang dan motivasi proyek
+Definisi Masalah: Tentukan dengan jelas masalah yang ingin Anda selesaikan
+Dataset: Sumber data, ukuran, dan langkah praproses
+Metode yang Diusulkan: Model yang dipilih dan alasan pemilihannya
+Pembagian Tugas: Peran dan tanggung jawab masing-masing anggota kelompok
+Rencana Kegiatan: Garis waktu proyek dan fase pengembangan
+📝 Kriteria Evaluasi
+Kreativitas Ide: Inovasi dalam pemilihan dan pendekatan masalah
+Kebaruan Model: Penggunaan atau modifikasi model yang tidak umum atau model yang canggih
+Kompleksitas: Tingkat kesulitan masalah dan solusinya
+📥 Pengiriman: Silakan kirimkan slide presentasi Anda (file PPT) melalui tautan yang disediakan paling lambat tanggal 23 Mei 2025, pukul 12:00 AM .
+
+----
+
 ## 📝 Deskripsi Proyek
 Proyek ini bertujuan untuk mengklasifikasikan sentimen review film IMDB menggunakan pendekatan supervised learning dengan membandingkan dua model deep learning yang berbeda. Review film akan diklasifikasikan ke dalam sentimen positif atau negatif berdasarkan konten teksnya.
 
@@ -19,6 +43,7 @@ Proyek ini bertujuan untuk mengklasifikasikan sentimen review film IMDB mengguna
 
 ## 📊 Dataset
 - **Sumber**: [IMDB Movie Reviews Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+- 50 k data
 - **Ukuran**: Subset 1000 review (500 positif, 500 negatif)
 - **Distribusi Kelas**: Seimbang (50% positif, 50% negatif)
 - **Fitur**: Teks review dan label sentimen (positif/negatif)
@@ -57,22 +82,6 @@ bert_model = TFBertForSequenceClassification.from_pretrained('bert-base-uncased'
 - Learning Curves
 - Feature Importance Analysis
 
-## 📆 Timeline Proyek
-| Minggu | Kegiatan |
-|--------|----------|
-| 1 | Pengumpulan dan praproses data |
-| 2 | Implementasi dan pelatihan model LSTM |
-| 3 | Implementasi dan fine-tuning model BERT |
-| 4 | Evaluasi model dan analisis perbandingan |
-| 5 | Penyusunan presentasi dan finalisasi proyek |
-
-## 👥 Pembagian Tugas
-| Anggota | Tanggung Jawab |
-|---------|----------------|
-| Anggota 1 | Praproses data dan implementasi model LSTM |
-| Anggota 2 | Implementasi model BERT dan fine-tuning |
-| Anggota 3 | Evaluasi model, analisis hasil, dan visualisasi |
-
 ## 📊 Struktur Slide Presentasi
 1. Pendahuluan
    - Latar belakang analisis sentimen
@@ -94,6 +103,9 @@ bert_model = TFBertForSequenceClassification.from_pretrained('bert-base-uncased'
    - Temuan utama dan implikasi
    - Potensi pengembangan di masa depan
 7. Pembagian Tugas & Timeline
+
+
+
 
 ## 🔧 Teknologi yang Digunakan
 - **Python**: Bahasa pemrograman utama
